@@ -1,7 +1,7 @@
 // ============================================================================
 // STYLES/_VARIABLES.SCSS
 // ----------------------------------------------------------------------------
-// Site wide configuration variables and helper classes.
+// Site wide configuration variables.
 // 
 // Author: Ben Collord
 // ============================================================================
@@ -9,7 +9,7 @@
 // Typography
 // ============================================================================
 
-$font-stack : "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-stack : "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $font-weight: 400;
 
@@ -17,42 +17,19 @@ $font-weight: 400;
 // Layout 
 // ============================================================================
 
-$intro-padding : 10%;
+$intro-padding : 8%;
 
 
 // Colors
 // ============================================================================
 
-$grays: (
-  #444f5a,
-  #8097b3,
-);
+$grays  : (#444f5a, #8097b3);
 
-$blues: (
-  #95c6fc,
-  #aaccff,
-  #7ac1ff,
-  #7ad1dd,
-  #6a85a4,
-  #6c71c4,
-);
+$blues  : (#95c6fc, #aaccff, #7ac1ff, #7ad1dd, #6a85a4, #6c71c4);
 
-$reds: (
-  #cc9dc7,
-  #c53150,
-  #d85896,
-);
+$reds   : (#cc9dc7, #c53150, #d85896);
 
-$greens: (
-  #d8feff,
-  #abdfcb,
-  #aaeeab,
-  #84ffeb,
-  #83e1b2,
-  #66ffcd,
-  #22d49a,
-  #52fec7,
-);
+$greens : (#d8feff, #abdfcb, #aaeeab, #84ffeb, #83e1b2, #66ffcd, #22d49a, #52fec7);
 
 
 $blue       : nth($blues, 3);
@@ -60,28 +37,4 @@ $green      : nth($greens, 4);
 $red        : nth($reds, 2);
 $white      : #f8f8f8;
 $off-white  : #e7e7e7;
-
-
-
-// Helper Selectors
-// ============================================================================
-
-.txt-blue {
-  color: $blue;
-}
-
-.txt-green {
-  color: $green;
-}
-
-.txt-white {
-  color: $white;
-}
-
-%btn-hollow {
-  font-weight: bold;
-  color: $white;
-  background-color: transparent;
-  border: 2px solid $off-white;
-  
-}
+$black      : #101010;

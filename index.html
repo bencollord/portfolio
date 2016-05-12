@@ -6,21 +6,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Full-stack web developer and designer Ben Collord's portfolio. Click here to view more.">
+    <meta name="author" content="Ben Collord">
 
     <title>Ben Collord - Portfolio</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="styles/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,900" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles/portfolio.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +57,7 @@
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#work">Recent Work</a>
             </li>
           </ul>
         </div>
@@ -76,7 +77,7 @@
             <div class="intro-message">
               <h1>
                 My name is Ben Collord.<br />
-                I build the Internet
+                I build the Internet.
               </h1>
               <p>
                 I am a Bay Area born, Boise-raised full-stack developer, designer, language enthusiast, and long time web geek. Nice to meet you.
@@ -87,7 +88,7 @@
                   <a href="https://github.com/bencollord" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                 </li>
                 <li>
-                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                  <a href="https://www.linkedin.com/in/ben-collord-676502ba" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                 </li>
               </ul>
             </div>
@@ -103,8 +104,8 @@
     <!-- Page Content -->
 
     <a name="skills"></a>
-    <div class="content-section-a">
-
+    <section class="content-section-a">
+      <h2 class="section-heading">Skills</h2>
       <!-- /.content-section-a -->
 
       <div class="content-section-b">
@@ -113,9 +114,8 @@
 
           <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-              <hr class="section-heading-spacer">
               <div class="clearfix"></div>
-              <h2 class="section-heading">Development</h2>
+              <h3>Development</h3>
               <p class="lead">
                 I love solving puzzles and making things click together. I like to write clean, standards-compliant code that makes magic happen. I have a particular love for good, modular, object-oriented code.
               </p>
@@ -131,35 +131,33 @@
       </div>
       <!-- /.content-section-b -->
 
-      <div class="content-section-a">
+      <div class="container">
 
-        <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-sm-6">
+            <div class="clearfix"></div>
+            <h3>Design</h3>
+            <p class="lead">
+              Of course, what good is a functioning site if it doesn't look good? I have a keen eye for design and I'm pretty handy with Adobe Illustrator and Photoshop. I keep an eye on the trends out there, but I don't let them rule my life. I'm not the guy who will make your site flat just because CreativeBloq told me to.
+            </p>
 
-          <div class="row">
-            <div class="col-lg-5 col-sm-6">
-              <hr class="section-heading-spacer">
-              <div class="clearfix"></div>
-              <h2 class="section-heading">Design</h2>
-              <p class="lead">
-                Of course, what good is a functioning site if it doesn't look good? I have a keen eye for design and I'm pretty handy with Adobe Illustrator and Photoshop. I keep an eye on the trends out there, but I don't let them rule my life. I'm not the guy who will make your site flat just because CreativeBloq told me to.
-              </p>
-
-            </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-              <img class="img-responsive" src="images/backgrounds/lightbulb.jpeg" alt="">
-            </div>
           </div>
-
+          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <img class="img-responsive" src="images/backgrounds/lightbulb.jpeg" alt="">
+          </div>
         </div>
-        <!-- /.container -->
 
       </div>
-      <!-- /.content-section-a -->
+      <!-- /.container -->
 
-      <a name="work"></a>
-      <div class="container portfolio">
+    </section>
+    <!-- /.content-section-a -->
+
+    <a name="work"></a>
+    <section class="portfolio">
+      <div class="container">
         <div class="row">
-          <h2>Recent Work</h2>
+          <h2 class="section-heading">Recent Work</h2>
           <div class="col-lg-6 col-sm-12">
             <h3>Life's a Stitch</h3>
             <div class="portfolio-item">
@@ -178,90 +176,63 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <a name="contact"></a>
-      <div class="banner">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-5 col-lg-offset-1">
-              <h2>Check out some of my side projects on Github!</h2>
-            </div>
-            <div class="col-lg-5">
-              <div class="banner-social-buttons">
-                <a href="https://github.com/bencollord" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">View Github Profile</span></a>
-              </div>
+    <aside class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1">
+            <h2>Check out some of my side projects on Github!</h2>
+          </div>
+          <div class="col-lg-5">
+            <div class="banner-social-buttons">
+              <a href="https://github.com/bencollord" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">View Github Profile</span></a>
             </div>
           </div>
-
         </div>
-        <!-- /.container -->
-
       </div>
-      <!-- /.banner -->
+      <!-- /.container -->
+    </aside>
+    <!-- /.banner -->
 
-      <!-- Footer -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <ul class="list-inline">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-              <p class="copyright text-muted small">Copyright &copy; Grant Benjamin Collord 2016. All Rights Reserved</p>
-            </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#work">Work</a>
+              </li>
+            </ul>
+            <p class="copyright text-muted small">Copyright &copy; Grant Benjamin Collord 2016. All Rights Reserved</p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <!-- jQuery -->
-      <script src="vendor/js/jquery.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/js/jquery.js"></script>
 
-      <!-- Bootstrap Core JavaScript -->
-      <script src="vendor/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/js/bootstrap.min.js"></script>
+    <!-- jQuery Lettering library -->
+    <script src="vendor/js/jquery.lettering.js"></script>
+    <!-- Custom scripting -->
+    <script src="js/portfolio.js"></script>
 
-      <script src="vendor/js/jquery.lettering.js"></script>
+  </body>
 
-      <script>
-        $(document).ready(function () {
-          $('#logo').lettering();
-
-          $("#logo .char1, #logo .char12").css({
-            'font-size' : '30px',
-            'font-weight' : '500',
-            'color' : '#f8f8f8'
-          });
-
-          $("#logo .char2, #logo .char3, #logo .char4").css({
-            'color' : '#74fdd2',
-            'font-weight' : 600
-          });
-
-          $('#logo .char5').css({
-            'font-size' : '25px',
-            'color' : '#f8f8f8'
-          });
-
-          $("#logo .char1").css('padding-right', '5px');
-          $("#logo .char12").css('padding-left', '4px');
-        });
-      </script>
-
-      </body>
-
-    </html>
+</html>

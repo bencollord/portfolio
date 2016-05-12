@@ -1,0 +1,38 @@
+// ============================================================================
+// STYLES/_HELPERS.SCSS
+// ----------------------------------------------------------------------------
+// Helper classes and placeholders
+// 
+// Author: Ben Collord
+// ============================================================================
+
+// Typography
+// ============================================================================
+.txt-blue, %txt-blue {
+  color: $blue;
+}
+
+.txt-green, %txt-green {
+  color: $green;
+}
+
+.txt-white, %txt-white {
+  color: $white;
+}
+
+// Layout
+// ============================================================================
+
+%bottom-margin {
+  margin-bottom: 25px;
+}
+
+// Buttons
+// ============================================================================
+
+%btn-hollow {
+  font-weight: bold;
+  color: $white;
+  background-color: transparent;
+  border: 2px solid $off-white; 
+}
